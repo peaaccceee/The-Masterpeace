@@ -20,10 +20,6 @@ header {
     padding: 15px 0;
 }
 
-img {
-    width: 100px;
-}
-
 .navbar {
     width: 90%;
     margin: auto;
@@ -49,10 +45,13 @@ img {
 section {
     padding: 40px 20px;
     width: 90%;
-    margin: auto;
+    margin: 40px;
     height: 100vh;
 }
 
+#home {
+    background-image: url(./images/Peace.jpeg);
+}
 #home img {
     width: 250px;
     /* height: 250px; */
