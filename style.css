@@ -45,22 +45,28 @@ header {
 section {
     padding: 40px 20px;
     width: 90%;
-    margin: 40px;
+    margin: 0;
     height: 100vh;
 }
 
 #home {
     background-image: url(./images/Peace.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    background-color: #cbb387;
 }
+/* 
 #home img {
     width: 250px;
-    /* height: 250px; */
+    /* height: 250px;
     object-fit: cover;
     border-radius: 20%;
     border: 2px solid black;
     filter: grayscale(100%);
     transition: o.5s ease;
-}
+
+} */
 
 #home img img:hover {
     filter: grayscale(0%);
@@ -75,6 +81,19 @@ h2 {
     margin-bottom: 15px;
 }
 
+.text {
+    font-size: 23px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    height: 200px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 footer {
     text-align: center;
     padding: 15px;
